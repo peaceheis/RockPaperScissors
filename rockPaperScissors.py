@@ -23,8 +23,6 @@ def computer_initiate() :
   computer_input = random.randrange(0,3)
   print("Computer has decided!")
 
-try :
-  computer_initiate()
 #Intro to Game
 
 #print("Let's play Rock, Paper, Scissors!")
