@@ -40,7 +40,7 @@ def player_results(player_equivalent, computer_input, countc, countp) :
     countc = countc + 1
   elif ((computer_input - player_equivalent) % 3) == 2 :
     countp = countp + 1
-  print("Player " + outcomes[(computer - player) % 3])
+  print("Player " + outcomes[(computer_input - player_input) % 3])
 
 #Prints scores
   def print_scores() : 
@@ -74,7 +74,7 @@ def decisions() :
   print("Computer chose: " + computer_equivalent)
   player_results(player_equivalent, computer_input, computer_count, player_count)
 
-decisions
+decisions()
 #Rest of Game
 while (player_input != "stop") :
   computer_initiate()
