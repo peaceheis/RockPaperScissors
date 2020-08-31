@@ -1,5 +1,5 @@
 
-#Boilerplate
+#Var Intro
 import time
 import random
 import sys
